@@ -14,6 +14,14 @@ Run the linter:
 pyb verify
 ```
 
+## Configuration
+
+```python
+project.set_property_if_unset("jedi_linter_break_build", False)
+# Output every warning, not just the amount of warnings
+project.set_property_if_unset("jedi_linter_verbose", False)
+```
+
 ## Warning
 The jedi linting capabilities are in a pre-alpha state, so it might crash or complain about things that are not actually problems.
 

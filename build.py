@@ -11,10 +11,11 @@ use_plugin('pypi:pybuilder_release_plugin')
 name = "pybuilder_jedi_plugin"
 default_task = ["analyze", "check_source_file_headers", "publish"]
 url = "https://github.com/mriehl/pybuilder_jedi_plugin"
-description = "Lints your sources with the jedi"
+description = "Lints your sources with the jedi linter: https://jedi.jedidjah.ch/latest"
+summary = "Lint python sources with the jedi linter (experimental)"
 authors = [Author('Maximilien Riehl', 'max@riehl.io')]
 license = 'Apache License, Version 2.0'
-version = '0.0.2'
+version = '0.0.3'
 
 
 @init

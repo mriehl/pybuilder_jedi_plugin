@@ -14,7 +14,7 @@ url = "https://github.com/mriehl/pybuilder_jedi_plugin"
 description = "Lints your sources with the jedi"
 authors = [Author('Maximilien Riehl', 'max@riehl.io')]
 license = 'Apache License, Version 2.0'
-version = '0.0.1'
+version = '0.0.2'
 
 
 @init
